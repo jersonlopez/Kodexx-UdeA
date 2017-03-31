@@ -1,0 +1,25 @@
+{
+  "name": "clasenode",
+  "version": "1.0.0",
+  "description": "esta es mi primera clase con nodejs y npm",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jersonlopez/Kodexx-UdeA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jersonlopez/Kodexx-UdeA/issues"
+  },
+  "homepage": "https://github.com/jersonlopez/Kodexx-UdeA#readme",
+  "dependencies": {
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
