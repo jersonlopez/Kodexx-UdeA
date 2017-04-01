@@ -22,3 +22,31 @@ marzo 24 de 2017
 -callback
 -setInterval
 -setTimeout
+
+marzo 31 de 2017 
+
+- leer sobre http://webassembly.org/
+
+parados en la carpeta escribimos el comando: "npm init" y este nos creara un paquete json, despues el comando "npm i -S express" para crear deṕendencias y permitir conexiones(abstraccion de node js), "npm i -S morgan" para logs <--crea un carpeta al lado del archivo-->.
+con el comando "npm i -D nodemon" --> para que no toque bajar el servidor cada vez que modifique algo, se modifica el combre del script en el package.json y para correrlo colocamos "npm run nombredelscript".
+
+// el "-S" es para que los descargue dentro del archivo json  
+// el "-D" lo ejecuta localmente en la aplicacion
+// el "-G" lo instala globalmente en la maquina
+
+con el node no hay que importar el .js al HTML
+
+para toda la documentacion contenida en npm: https://www.npmjs.com/
+
+en la web podemos usar:
+	-get --> pedir
+	-post --> mandar, enviar
+	-put --> actualizar
+	-delete --> borrar
+
+
+
+// para cambiar el nombre de quien hace el commit:
+	-(git config user.name "jersonlopez") 
+	-(git config user.email "jersonlopez.1204@gmail.com")
+	
