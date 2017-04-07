@@ -38,15 +38,25 @@ con el node no hay que importar el .js al HTML
 
 para toda la documentacion contenida en npm: https://www.npmjs.com/
 
-en la web podemos usar:
-	-get --> pedir
-	-post --> mandar, enviar
-	-put --> actualizar
-	-delete --> borrar
-
+en la web podemos usar: (CRUD)
+	- get --> pedir-obtener --> Read 
+	- post --> mandar-enviar --> Create
+	- put --> actualizar --> Update                  
+	- delete --> borrar --> Delete
 
 
 // para cambiar el nombre de quien hace el commit:
 	-(git config user.name "jersonlopez") 
 	-(git config user.email "jersonlopez.1204@gmail.com")
+
+
+
+- abril 7 de 2017 (semilla-nodejs)
+
+
+		- require() --> importa.
+		
+para protocolos https --> https://letsencrypt.org/
+ se recomiendo usar VPN (consultar implementación)
+
 	
