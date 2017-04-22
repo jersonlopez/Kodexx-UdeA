@@ -46,8 +46,8 @@ en la web podemos usar: (CRUD)
 
 
 // para cambiar el nombre de quien hace el commit:
-	-(git config user.name "jersonlopez") 
-	-(git config user.email "jersonlopez.1204@gmail.com")
+	-\n(git config user.name "jersonlopez") 
+	-\n(git config user.email "jersonlopez.1204@gmail.com")
 
 
 
@@ -58,5 +58,40 @@ en la web podemos usar: (CRUD)
 		
 para protocolos https --> https://letsencrypt.org/
  se recomiendo usar VPN (consultar implementación)
+
+_________________________________________________________________________________________________________________________
+
+
+				abril 21 de 2017 (Persistencia)
+
+--> Persistencia: mantener algo en el tiempo, almacenar datos para volverlos a utilizar en algun momento.
+	- bases relacionales --> que tiene una seria de reglas.\n
+	- bases no relacionales --> no tiene dichas reglas (mongoDB, firebase).
+	- primary key()
+	- foreign key()
+
+PostgreSQL es una BD que es gratis para proyectos.
+
+para crear DB:
+
+# en modo mysql> todas la lineas tienen que terminar en ;
+	-\nmysql -u root -p --> password:root --> iniciar mysql.
+	-\ncreate database; --> crear la nuestra.
+	-\nshow databases; --> mirar las BDs que hay en el pc.
+	-\nuse empresa;
+	-\n create table cliente(
+		cedula int,
+		nombre varchar(40),
+		telefono varchar(15),
+		direccion varchar(30),
+		email varchar(40)
+		primary key(cedula)
+		);
+	-\ndescribe "nombre_de_la_tabla"; --> para mirarla.
+	
+
+
+
+
 
 	
