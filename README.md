@@ -17,13 +17,13 @@ form input button
 inline-block flex
 
 
-marzo 24 de 2017
+		- marzo 24 de 2017
 
 -callback
 -setInterval
 -setTimeout
 
-marzo 31 de 2017 
+		- marzo 31 de 2017 
 
 - leer sobre http://webassembly.org/
 
@@ -51,7 +51,7 @@ en la web podemos usar: (CRUD)
 
 
 
-- abril 7 de 2017 (semilla-nodejs)
+		- abril 7 de 2017 (semilla-nodejs)
 
 
 		- require() --> importa.
@@ -62,7 +62,7 @@ para protocolos https --> https://letsencrypt.org/
 _________________________________________________________________________________________________________________________
 
 
-				abril 21 de 2017 (Persistencia)
+		- abril 21 de 2017(Persistencia)
 
 --> Persistencia: mantener algo en el tiempo, almacenar datos para volverlos a utilizar en algun momento.
 	- bases relacionales --> que tiene una seria de reglas.\n
