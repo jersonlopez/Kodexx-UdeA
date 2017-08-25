@@ -65,7 +65,7 @@ ________________________________________________________________________________
 		- abril 21 de 2017(Persistencia)
 
 --> Persistencia: mantener algo en el tiempo, almacenar datos para volverlos a utilizar en algun momento.
-	- bases relacionales --> que tiene una seria de reglas.\n
+	- bases relacionales --> que tiene una seria de reglas.
 	- bases no relacionales --> no tiene dichas reglas (mongoDB, firebase).
 	- primary key()
 	- foreign key()
@@ -74,12 +74,12 @@ PostgreSQL es una BD que es gratis para proyectos.
 
 para crear DB:
 
-# en modo mysql> todas la lineas tienen que terminar en ;
-	-\nmysql -u root -p --> password:root --> iniciar mysql.
-	-\ncreate database; --> crear la nuestra.
-	-\nshow databases; --> mirar las BDs que hay en el pc.
-	-\nuse empresa;
-	-\n create table cliente(
+		en modo mysql> todas la lineas tienen que terminar en (;)
+	-mysql -u root -p --> password:root --> iniciar mysql.
+	-create database; --> crear la nuestra.
+	-show databases; --> mirar las BDs que hay en el pc.
+	-use empresa;
+	-create table cliente(
 		cedula int,
 		nombre varchar(40),
 		telefono varchar(15),
@@ -87,7 +87,13 @@ para crear DB:
 		email varchar(40)
 		primary key(cedula)
 		);
-	-\ndescribe "nombre_de_la_tabla"; --> para mirarla.
+	-describe "nombre_de_la_tabla"; --> para mirarla.
+
+
+#					Kodexx 20172
+ 
+¿Que es Docker?
+	/ver diapositivas de marto.
 	
 
 
